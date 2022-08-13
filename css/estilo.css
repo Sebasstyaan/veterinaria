@@ -73,6 +73,12 @@ hr.new5{
     height: 200px;
     border-radius: 50%; 
 }
+#empresaa{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 #Formulario{
     border-radius: 15px;
     background: rgb(73, 110, 109);
@@ -131,8 +137,82 @@ hr.new5{
     color: aliceblue;
     text-align: center;
 }
-@media only screen and (max-width:600px){
-    #contenedorGeneral{
+@media only screen and (max-width:600px) {
+   
+    #contenedorGeneral {
+        display: block;
+        top: 0;
+        border: 0;
+        margin: 0;
+    }
+    #BarraMenu {
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+
+    }
+    #botonMenu {
+        margin-bottom: 8px;
+        font-size: 0.81em;
+        
+        
+    }
+    #section1 {
+        width: 100%;
+        /* margin-bottom: 8px; */
+    }
+    #Seccion {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    #contenido {
+        
+        width:100%;
+        margin: 0px;
+        border: 0px;
+        margin-bottom: 8px;
+        
+
+    }
+    #Formulario {
+        width: 100%;
+        margin-bottom: 8px;
+        position: flex;
+        margin: 0px;
+        border: 0px;
+        
+        
+    }
+    
+    #empresa {
+        width: 40%;
+        height: 70%;
+        left: -200px;
+        position: relative;
+    }
+    h4 {
+        font-size: 0.98em;
+    }
+    p {
+        font-size: 0.83em;
+    }
+    h1 {
+        font-size: 0.98em;
+    }
+    h2 {
+        font-size: 0.83em;
+    }
+    h3 {
+        font-size: 0.81em;
+    }
+
+}
+
+/* @media only screen and (max-width:600px){
+    #BarraMenu{
         display: block;
     }
     #Formulario{
@@ -169,4 +249,5 @@ hr.new5{
     h3{
         font-size: 0.83em;
     }
-}
+} */
+
